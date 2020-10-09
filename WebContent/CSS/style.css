@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: white;
+}
+
+.container {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.btn {
+	border: 1px solid white;
+	color: white;
+	padding: 8px 16px 8px;
+	margin: 10px;
+	background: #6495ED;
+}
+
+.btn:hover {
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	padding: 8px 16px 8px;
+	margin: 10px;
+	background: #1E90FF;
+	transition: .7s;
+}
+
+.btn-editar {
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	padding: 8px 16px 8px;
+	margin: 10px;
+	background: #0000FF;
+}
+
+.btn-remover {
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	padding: 8px 16px 8px;
+	margin: 10px;
+	background: red;
+}
+
+table > thead > tr {
+	color: white;
+	background: gray;
+	border: 1px solid gray;
+}
+
+table > thead > tr > th {
+	padding: 0px;
+}
+
+.par {
+	background: white !important;
+}
+
+.impar {
+	background: gray !important;
+}
+
+table > tbody > tr > td {
+	padding: 18px;
+	background: white;
+	align-items: center;
+	border-bottom: 1px solid white;
+}
+
+.teste {
+	background: blue !important;
+}
+
+a {
+	text-decoration: none;
+}
